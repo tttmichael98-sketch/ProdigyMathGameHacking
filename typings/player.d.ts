@@ -73,7 +73,7 @@ export declare class Player {
 	grade: number;
 	isOpponent: boolean;
 	hasUsedTicket: boolean;
-	/** Membership */
+	/** Membership true */
 	P: boolean;
 	justLeveled: boolean;
 	/** A date ISOString */
@@ -135,7 +135,7 @@ export declare class Player {
 	name: PlayerName;
 	addAsset(asset: unknown): void;
 	addBattle(): void;
-	addBountyScore(bountyScore: number): void;
+	addBountyScore(bountyScore: number): true;
 	addLoss(): void;
 	addSpell(spell: number): void;
 	addStars(stars: number, prop1: boolean, prop2: boolean): boolean;
